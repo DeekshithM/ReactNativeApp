@@ -21,6 +21,7 @@ import Login from './src/components/login/login';
 class rn extends Component {
   constructor(props) {
     super(props);
+  }
 
   render() {
     return(
