@@ -22,22 +22,6 @@ class rn extends Component {
   constructor(props) {
     super(props);
 
-    this.state = {
-      name: 'Deekshit'
-    };
-
-        this.chat();
-     //   this.onSend = this.onSend.bind(this);
-
-    console.log(this);
-  }
-
-  chat(){
-    console.log('Chat called...');
-  }
-
-
-
   render() {
     return(
         <Navigator initialRoute = {{title: 'Parikshit', id: 'Splash', index: 0}}
